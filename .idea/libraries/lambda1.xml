@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lambda1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/awslambda/functions/python3/lambda1/lambda1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

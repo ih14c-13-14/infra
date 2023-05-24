@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lambda-function-with-multiple-handlers">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/awslambda/functions/java/lambda_multiple_handlers/build/distributions/lambda-function-with-multiple-handlers.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

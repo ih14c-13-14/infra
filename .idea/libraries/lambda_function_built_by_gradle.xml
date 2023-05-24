@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lambda-function-built-by-gradle">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/awslambda/functions/java/lambda_echo/build/distributions/lambda-function-built-by-gradle.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

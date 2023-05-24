@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="localstack-testing-testmodule-module">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/cloudformation/artifacts/extensions/modules/localstack-testing-testmodule-module.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

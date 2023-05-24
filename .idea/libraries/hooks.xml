@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="hooks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/cloudformation/artifacts/extensions/hooks/localstack-testing-deployablehook.zip!/" />
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/cloudformation/artifacts/extensions/hooks/localstack-testing-testhook.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
