@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dotnet6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/awslambda/functions/dotnet6/dotnet6.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

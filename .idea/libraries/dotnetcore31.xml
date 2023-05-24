@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dotnetcore31">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/awslambda/functions/dotnetcore31/dotnetcore31.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lambda-function-with-lib-0.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/awslambda/functions/java/lambda_echo/lambda-function-with-lib-0.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="testlayer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/utils/localstack/tests/integration/awslambda/layers/testlayer.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
