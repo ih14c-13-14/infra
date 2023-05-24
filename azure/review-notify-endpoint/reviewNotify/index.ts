@@ -1,27 +1,27 @@
-import { AzureFunction, Context, HttpRequest } from '@azure/functions';
+import { AzureFunction, Context, HttpRequest } from "@azure/functions";
 
 const reviewersToDiscordIdMap = {
-	'na2na-p': '443669016536416267',
-	'Issiki0416': '885124658393919548',
-	'ryota658': '1098067196363690114'
+	"na2na-p": "443669016536416267",
+	Issiki0416: "885124658393919548",
+	ryota658: "1098067196363690114",
 };
 
 const webhookEndpointUri =
-	'https://discord.com/api/webhooks/1110906264483012713/RTqfKuSrCUOk3dSc8MTM1SObDn-7OPdBsyEtz2ZpcQskddxUkHKzenPs7S02u8bRDbB8';
+	"https://discord.com/api/webhooks/1110906264483012713/RTqfKuSrCUOk3dSc8MTM1SObDn-7OPdBsyEtz2ZpcQskddxUkHKzenPs7S02u8bRDbB8";
 
 const httpTrigger: AzureFunction = async function (
 	context: Context,
 	req: HttpRequest
 ): Promise<void> {
-	context.log('HTTP trigger function processed a request.');
+	context.log("HTTP trigger function processed a request.");
 	context.res = {
 		// status: 200, /* Defaults to 200 */
-		body: 'ok',
+		body: "ok",
 	};
 	const payload = req.body;
 
 	// stdout the request
-	if (payload.action !== 'review_requested') {
+	if (payload.action !== "review_requested") {
 		return;
 	}
 
@@ -48,9 +48,9 @@ const httpTrigger: AzureFunction = async function (
 	};
 
 	fetch(webhookEndpointUri, {
-		method: 'POST',
+		method: "POST",
 		headers: {
-			'Content-Type': 'application/json',
+			"Content-Type": "application/json",
 		},
 		body: JSON.stringify(discordPayload),
 	});
