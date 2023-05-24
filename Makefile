@@ -8,3 +8,9 @@ localstack-down:
 
 localstack-destroy:
 	(cd ${ROOT_DIR}/utils/localstack && docker-compose down -v)
+
+update-submodule:
+	@make update-localstack
+
+update-localstack:
+	(cd ${ROOT_DIR}/utils/localstack && git fetch && git checkout origin/master)
