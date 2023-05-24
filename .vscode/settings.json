@@ -3,10 +3,10 @@
         "vnet"
 		],
 		"azureFunctions.deploySubpath": "azure/review-notify-endpoint",
-		"azureFunctions.postDeployTask": "npm install (functions)",
+		"azureFunctions.postDeployTask": "yarn install (functions)",
 		"azureFunctions.projectLanguage": "TypeScript",
 		"azureFunctions.projectRuntime": "~4",
 		"debug.internalConsoleOptions": "neverOpen",
 		"azureFunctions.projectSubpath": "azure/review-notify-endpoint",
-		"azureFunctions.preDeployTask": "npm prune (functions)",
+		"azureFunctions.preDeployTask": "prune (functions)",
 }
