@@ -1,6 +1,6 @@
 locals {
   service = "artist"
-  env     = "qa"
+  env     = "pre"
 }
 
 // このterraformスタックをデプロイするためのIAMロールなので読み取りのみ
