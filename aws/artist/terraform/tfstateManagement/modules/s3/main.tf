@@ -38,3 +38,18 @@ resource "aws_s3_bucket_acl" "this" {
   bucket     = aws_s3_bucket.this.id
   acl        = "private"
 }
+
+resource "aws_s3_bucket_lifecycle_configuration" "this" {
+  bucket = aws_s3_bucket.this.id
+  rule {
+    id     = "tfstateManagement"
+    status = "Enabled"
+    filter {}
+
+    noncurrent_version_expiration {
+      noncurrent_days           = 30
+      newer_noncurrent_versions = 5
+    }
+  }
+}
+
