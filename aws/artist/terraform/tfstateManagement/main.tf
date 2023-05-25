@@ -3,7 +3,12 @@ module "s3_bucket_module" {
   bucket_name = "artist-tfstate"
 }
 
-module "dynamodb_table_module" {
+module "dynamodb_dev_table_module" {
   source     = "./modules/dynamodb"
-  table_name = "artist-tfstate-lock"
+  table_name = "artist-dev-tfstate-lock"
+}
+
+module "dynamodb_pre_table_module" {
+  source     = "./modules/dynamodb"
+  table_name = "artist-pre-tfstate-lock"
 }
