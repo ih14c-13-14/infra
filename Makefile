@@ -46,13 +46,3 @@ tflint:
 		tflint; \
 		cd $(ROOT_DIR) || exit; \
 	done
-
-.PHONY: tfsec
-tfsec:
-	@cd $(ROOT_DIR) ; \
-	find . -name '*.tf' -print0 | while IFS= read -r -d '' file; do \
-		dir=$$(dirname "$$file"); \
-		cd "$$dir" || exit; \
-		tfsec . ; \
-		cd $(ROOT_DIR) || exit; \
-	done
