@@ -3,5 +3,5 @@ terraform 1.4.6
 tflint 0.46.1
 tfsec 1.28.1
 awscli 2.11.25
-python 3.11.3
+python 3.11.4
 terragrunt 0.46.2
