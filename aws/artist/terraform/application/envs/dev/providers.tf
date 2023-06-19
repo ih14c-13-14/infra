@@ -1,7 +1,3 @@
-locals {
-  eks_cluster_arn = "arn:aws:eks:${data.aws_region.current.name}:${data.aws_caller_identity.current.account_id}:cluster/${local.service}-${local.env}-eks"
-}
-
 provider "aws" {
   region = "ap-northeast-1"
 
