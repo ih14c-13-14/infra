@@ -3,3 +3,10 @@ module "s3_log" {
   service = var.service
   env     = var.env
 }
+
+module "s3_hosting" {
+  source     = "./modules/s3-hosting"
+  service    = var.service
+  env        = var.env
+  log_bucket = module.s3_log.bucket
+}
