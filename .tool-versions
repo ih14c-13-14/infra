@@ -4,4 +4,4 @@ tflint 0.47.0
 tfsec 1.28.1
 awscli 2.12.3
 python 3.11.4
-terragrunt 0.47.0
+terragrunt 0.48.0
