@@ -1,5 +1,5 @@
 jq 1.6
-terraform 1.5.1
+terraform 1.5.2
 tflint 0.47.0
 tfsec 1.28.1
 awscli 2.12.3
