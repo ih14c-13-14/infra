@@ -2,6 +2,6 @@ jq 1.6
 terraform 1.5.2
 tflint 0.47.0
 tfsec 1.28.1
-awscli 2.12.4
+awscli 2.12.5
 python 3.11.4
 terragrunt 0.48.0
