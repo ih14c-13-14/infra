@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/ih14c-13-14/artist-backend:main
+    image: na2na/artist:main
     restart: always
     ports:
       - "3000:3000"
