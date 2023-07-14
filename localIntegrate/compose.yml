@@ -12,6 +12,8 @@ services:
       - external_network
     env_file:
       - ./app/.env
+    environment:
+      - TZ=Asia/Tokyo
     depends_on:
       redis:
         condition: service_healthy
