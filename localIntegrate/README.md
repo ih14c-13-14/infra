@@ -8,7 +8,7 @@ TODO
 graph LR
 
 A[User] -->|Request| B((Browser))
-B -->|http://artist.ymky.dev| C[Cloudflare Tunnel]
+B -->|https://artist.ymky.dev| C[Cloudflare Tunnel]
 
 subgraph LocalMachine[Local Machine]
     C --> D[Nginx]
