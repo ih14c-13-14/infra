@@ -16,7 +16,7 @@ RUN corepack enable
 
 WORKDIR /frontend
 
-RUN git clone https://github.com/ih14c-13-14/artist-frontend.git -b chore/integrated
+RUN git clone https://github.com/ih14c-13-14/artist-frontend.git --depth 1 -b main
 
 WORKDIR /frontend/artist-frontend
 

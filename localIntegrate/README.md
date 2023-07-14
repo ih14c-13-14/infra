@@ -1,6 +1,14 @@
-# セットアップ
+# 使い方
 
-TODO
+## セットアップ
+
+`make setup`
+
+## 起動
+
+`make up`
+
+(非デーモンとして起動する場合は`make up-verbose`)
 
 # Figure
 
