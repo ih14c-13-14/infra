@@ -2,8 +2,6 @@ services:
   app:
     image: na2na/artist:main
     restart: always
-    ports:
-      - "3000:3000"
     links:
       - redis
       - db
