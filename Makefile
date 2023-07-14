@@ -24,3 +24,9 @@ up:
 
 up-verbose:
 	(cd ${ROOT_DIR}/localIntegrate && docker compose up)
+
+down:
+	(cd ${ROOT_DIR}/localIntegrate && docker compose down)
+
+destroy:
+	(cd ${ROOT_DIR}/localIntegrate && docker compose down -v)
