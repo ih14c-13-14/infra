@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:1.4
 
-ARG NODE_VERSION=18.16.1-bullseye as builder
+ARG NODE_VERSION=20.4.0-bullseye as builder
 
 FROM node:${NODE_VERSION} AS builder
 
