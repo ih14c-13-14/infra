@@ -38,7 +38,7 @@ services:
     networks:
       - internal_network
     env_file:
-      - ./postgres/docker.env
+      - ./postgres/.env
     volumes:
       - postgres:/var/lib/postgresql/data
     healthcheck:

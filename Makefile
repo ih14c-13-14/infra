@@ -14,3 +14,13 @@ update-submodule:
 
 update-localstack:
 	(cd ${ROOT_DIR}/utils/localstack && git fetch && git checkout origin/master)
+
+setup:
+	(cd ${ROOT_DIR}/localIntegrate && docker compose pull && docker compose build)
+	find ${ROOT_DIR}/localIntegrate -name '.env.example' -exec bash -c 'cp "$$1" "$${1%.example}"' _ {} \;
+
+up:
+	(cd ${ROOT_DIR}/localIntegrate && docker compose up -d)
+
+up-verbose:
+	(cd ${ROOT_DIR}/localIntegrate && docker compose up)

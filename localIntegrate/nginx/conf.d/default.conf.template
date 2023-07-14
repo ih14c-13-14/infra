@@ -8,6 +8,8 @@ server {
         listen [::]:80;
         client_max_body_size 1G;
 
+        server_name ${SERVER_NAME};
+
         location / {
             root /usr/share/nginx/html; 
             try_files $uri $uri/ /index.html;
