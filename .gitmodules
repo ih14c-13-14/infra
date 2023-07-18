@@ -1,3 +1,0 @@
-[submodule "utils/localstack"]
-	path = utils/localstack
-	url = git@github.com:localstack/localstack.git
