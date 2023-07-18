@@ -18,7 +18,7 @@ graph LR
 A[User] -->|Request| B((Browser))
 B -->|https://artist.ymky.dev| C[Cloudflare Tunnel]
 
-subgraph LocalMachine[Local Machine]
+subgraph VM[VM]
     C --> D[Nginx]
 
     subgraph Docker[Docker]
