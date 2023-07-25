@@ -8,7 +8,7 @@ up:
 	(docker compose up -d)
 
 seed-up:
-	(migrate.sh && docker compose up -d)
+	(./migrate.sh && docker compose up -d)
 
 up-verbose:
 	(docker compose up)
