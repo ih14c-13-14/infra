@@ -5,8 +5,6 @@ locals {
 
 data "aws_caller_identity" "current" {}
 
-// NOTE: bucket log 書き込みの bucket log は取らない
-// tfsec:ignore:aws-s3-enable-bucket-logging
 resource "aws_s3_bucket" "this" {
   bucket = local.name
 
