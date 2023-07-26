@@ -2,6 +2,8 @@ ROOT_DIR=$(shell git rev-parse --show-superproject-working-tree --show-toplevel 
 
 setup:
 	(find . -name '.env.example' -exec bash -c 'cp "$$1" "$${1%.example}"' _ {} \;)
+
+build:
 	(docker compose pull && docker compose build)
 
 up:
