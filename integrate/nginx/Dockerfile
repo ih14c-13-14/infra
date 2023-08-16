@@ -32,7 +32,7 @@ RUN yarn build
 RUN rm -rf .git/ 
 
 
-FROM nginx:1.25.1 as server
+FROM nginx:1.25.2 as server
 
 RUN apt-get update && \
   apt-get install -y --no-install-recommends \
