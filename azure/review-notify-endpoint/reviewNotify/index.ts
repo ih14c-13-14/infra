@@ -2,19 +2,10 @@ import { AzureFunction, Context, HttpRequest } from "@azure/functions";
 
 const githubNameToDiscordIdMap = {
 	"na2na-p": "443669016536416267",
-	Issiki0416: "885124658393919548",
-	ryota658: "1098067196363690114",
-	aogumobc: "712943792121970719",
-	mokoxy: "598439305467396121",
-	"4s2r9": "712618597960253491",
-	"884344": "849490351097774090",
-	"yuuu-m": "675971170687909908",
-	N55039: "850009838318256170",
-	"Xx-shiina1121-xX": "612615566020313098",
 } as const;
 
 const webhookEndpointUri =
-	"https://discord.com/api/webhooks/1110906264483012713/RTqfKuSrCUOk3dSc8MTM1SObDn-7OPdBsyEtz2ZpcQskddxUkHKzenPs7S02u8bRDbB8";
+	"https://discord.com/api/webhooks/0000000000000000/hoge";
 
 const httpTrigger: AzureFunction = async function (
 	context: Context,
